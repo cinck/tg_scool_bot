@@ -12,6 +12,7 @@ There are four types of users:
 - teacher
 - student
 - parent
+
 Also availabe types combination ie teacher+parent types.
 
 Each usertype has it own requests functionality.
