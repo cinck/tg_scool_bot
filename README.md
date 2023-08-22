@@ -39,7 +39,7 @@ Admin options allow to create and make changes into database ie
 create new groups and courses, add students, assign courses to teachers and groups, edit schedule etc.
 
 Main command menu contains 'help' and 'start' commands.
-Bot replies may contain clickable links with available options for easy navigation.
+Bot replies may contain generated clickable command links with available options for easy navigation.
 Available options depend on usertype.
 
 Bot application is still in developement so not all described options are available at the moment.
