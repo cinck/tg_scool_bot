@@ -43,3 +43,16 @@ Bot replies may contain generated clickable command links with available options
 Available options depend on usertype.
 
 Bot application is still in developement so not all described options are available at the moment.
+
+Database models:
+- user model
+- teacher type user
+- student type user
+- parent type user
+- groups
+- courses
+- lessons
+- marks
+- timetable pattern
+- schedule
+ also models to bound relations between general models
