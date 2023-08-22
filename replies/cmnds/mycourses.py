@@ -24,7 +24,7 @@ class MyCourseReplier(CommandReplier):
         courses = db.session.query(Course).join(AssignedCourse).filter_by(teacher=self.profile.id)
         reply = ""
 
-        if not courses:
+        if courses.count() == 0:
             return '- список порожній -'
 
         for c in courses.order_by(Course.grade):
@@ -43,7 +43,7 @@ class MyCourseReplier(CommandReplier):
 
         if group:
             courses = db.session.query(Course).join(AssignedCourse).filter_by(group_id=group.id)
-        if not courses:
+        if courses.count() == 0:
             return '- список порожній -'
         for c in courses:
             reply += (f"{c.course_name}\n"

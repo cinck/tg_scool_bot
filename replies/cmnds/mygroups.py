@@ -4,6 +4,7 @@ from models.models import Group, AssignedCourse, TeacherUser, Course
 
 
 class MyGroupReplier(CommandReplier):
+    reply = "Список порожній"
 
     def __init__(self, update):
         super().__init__(update)
