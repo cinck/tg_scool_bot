@@ -22,6 +22,8 @@ class MyScheduleReplier(CommandReplier):
 
     def get_teacher_schedule(self):
         yearly_schedule = db.session.query(Timetable).filter_by(year=2023)
+        if yearly_schedule.count() == 0:
+            return "Розкладу ще немає"
 
         schedule = {}
         for w in range(1, yearly_schedule.count()):
@@ -37,6 +39,8 @@ class MyScheduleReplier(CommandReplier):
 
     def get_group_schedule(self):
         yearly_schedule = db.session.query(Timetable).filter_by(year=2023)
+        if yearly_schedule.count() == 0:
+            return "Розкладу ще немає"
 
         schedule = {}
         for w in range(1, yearly_schedule.count()):
