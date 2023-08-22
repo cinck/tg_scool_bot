@@ -1,8 +1,8 @@
 # tg_scool_bot
 
-This is a school process info and managing telegram bot.
+This telegram bot provides school study process info and managing.
 
-Please visit page https://cinck.github.io/ to start.
+Please visit page https://cinck.github.io/ to start using bot.
 
 Bot program uses database to store and retrieve users data and their requests.
 
@@ -40,3 +40,5 @@ create new groups and courses, add students, assign courses to teachers and grou
 Main command menu contains 'help' and 'start' commands.
 Bot replies may contain clickable links with available options for easy navigation.
 Available options depend on usertype.
+
+Bot application is still in developement so not all described options are available at the moment.
