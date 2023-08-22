@@ -2,7 +2,8 @@
 
 This telegram bot provides school study process info and managing.
 
-Please visit page https://cinck.github.io/ to start using bot.
+Please visit landing page https://cinck.github.io/ 
+or http://t.me/RD_sCool_Bot to start using bot.
 
 Bot program uses database to store and retrieve users data and their requests.
 
