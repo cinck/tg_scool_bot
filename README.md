@@ -33,6 +33,7 @@ to register as parent execute command (send message):
 
 Teacher type users may obtain administrative options by executing:
 /makemeadminplease admin_token
+
 Admin options allow to create and make changes into database ie
 create new groups and courses, add students, assign courses to teachers and groups, edit schedule etc.
 
